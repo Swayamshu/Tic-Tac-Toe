@@ -176,7 +176,7 @@ if(startingMove === 'O'){ // player plays with O (computer = 'X')
 
             $(".player-score").text(playerName + ": " + (player === 'X' ? xScore : oScore));
             $(".computer-score").text("Computer: " + (computer === 'O' ? oScore : xScore) );
-            $(".draw-score").text("Draws: " + numberOfDraws);
+            $(".draw-score").text("Draw: " + numberOfDraws);
 
             $(boxId).prop('disabled', true);
             $(boxId).addClass('disabled');
@@ -226,7 +226,7 @@ if(startingMove === 'X'){  // player starts with X (computer = 'O')
 
             $(".player-score").text(playerName + ": " + (player === 'X' ? xScore : oScore));
             $(".computer-score").text("Computer: " + (computer === 'O' ? oScore : xScore) );
-            $(".draw-score").text("Draws: " + numberOfDraws);
+            $(".draw-score").text("Draw: " + numberOfDraws);
 
             $(boxId).prop('disabled', true);
             $(boxId).addClass('disabled');

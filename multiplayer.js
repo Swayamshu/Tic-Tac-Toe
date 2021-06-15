@@ -142,7 +142,7 @@ boxes.forEach((b, i) => {
 
         $(".player1-score").text(player1 + ": " + localStorage.getItem("PlayerScore1"));
         $(".player2-score").text(player2 + ": " + localStorage.getItem("PlayerScore2"));
-        $(".draw-score").text("Draws: " + localStorage.getItem("Draws"));
+        $(".draw-score").text("Draw: " + localStorage.getItem("Draws"));
 
         $(tmp).prop('disabled', true);
         $(tmp).addClass('disabled');
