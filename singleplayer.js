@@ -207,6 +207,7 @@ if(startingMove === 'X'){  // player starts with X (computer = 'O')
                 $("#status-text").text((player == 'X' ? playerName : "Compter") + " Wins!");
                 xScore += 10;
                 localStorage.setItem("xScore", xScore);
+                removeButtonClick();
                 addScores();
             }
 
@@ -214,6 +215,7 @@ if(startingMove === 'X'){  // player starts with X (computer = 'O')
                 $("#status-text").text((player == 'O' ? playerName : "Compter") + " Wins!");
                 oScore += 10;
                 localStorage.setItem("oScore", oScore);
+                removeButtonClick();
                 addScores();
             }
 
@@ -221,6 +223,7 @@ if(startingMove === 'X'){  // player starts with X (computer = 'O')
                 $("#status-text").text("It's a Draw!");
                 numberOfDraws += 1;
                 localStorage.setItem("singleplayerDraws", numberOfDraws);
+                removeButtonClick();
                 addScores();
             }
 
