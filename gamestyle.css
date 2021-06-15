@@ -19,7 +19,7 @@ footer {
     color: #edf2f4;
 }
 
-.nav-link:hover, .nav-brand:hover {
+.nav-link:hover, .navbar-brand:hover {
     cursor: pointer;
 }
 
